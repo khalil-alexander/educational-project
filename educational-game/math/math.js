@@ -1,6 +1,6 @@
 // This will have the interactivity in math page
 
-
+// Hello reader
 
 // Questions
 
@@ -27,12 +27,12 @@ const questions = [
       },
       {
         question: "What is 7 × 8?",
-        choices: ["54", "56", "58", "60"],
+        choices: ["54", "56", "58", "55"],
         correctAnswer: 1
       },
       {
         question: "What is 36 ÷ 6?",
-        choices: ["4", "5", "6", "7"],
+        choices: ["4", "3", "6", "7"],
         correctAnswer: 2
       },
       {
