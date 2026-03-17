@@ -1,0 +1,10 @@
+correctBody {
+    color : green;
+}
+
+message{
+    text-align: center;
+    margin-top: 20%;
+    display: block;
+    border : 3px;
+}

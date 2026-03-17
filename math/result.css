@@ -1,0 +1,96 @@
+.result-page{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("images/math-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 1100;
+}
+
+
+.result-title{
+    position: fixed;
+    width: 40vw;
+    height: 13vh;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(56, 55, 55);
+    color: white;
+
+    top: 8vh;
+    left: 50vw;
+    transform: translateX(-50%);
+
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: "Comic Sans MS", "Arial";
+}
+
+.result{
+    position: fixed;
+    width: 25vw;
+    height: 6vh;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(56, 55, 55);
+    color: white;
+
+    top: 35vh;
+    left: 50vw;
+    transform: translateX(-50%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: "Comic Sans MS", "Arial";
+}
+
+.buttons{
+    position: fixed;
+    width: 100vw;
+    height: 8vh;
+    padding: 10px;
+    margin: 10px;
+
+    top: 90vh;
+    left: 50vw;
+    transform: translateX(-50%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: "Comic Sans MS", "Arial";
+    grid-template-columns: repeat(3, 2fr);
+    gap: 15vw;
+}
+
+#english{
+    height: 6vh;
+    width: 12vw;
+    background-color: rgb(56, 55, 55);
+    color: white;
+}
+
+#home{
+    height: 6vh;
+    width: 12vw;
+    background-color: rgb(56, 55, 55);
+    color: white;
+}
+
+#again{
+    height: 6vh;
+    width: 12vw;
+    background-color: rgb(56, 55, 55);
+    color: white;
+}

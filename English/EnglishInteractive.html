@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+        <title>English Interactive</title>
+        <link rel="stylesheet" href="./ENGL.css">
+        <script src="EnglishTest.js" defer></script>
+    </head>
+    <body class = "english-body">
+        <input type="button" id = "go-back-button" value="Go Back" onclick="history.back()">
+        
+        <div class ="score-board">
+            <p id = "Score">Score: </p>
+        </div>
+        <div class="question">
+            <p id = "question-text">Question: </p>
+        </div>
+        <div class="choices">
+            
+            <button id = "choice-buttonA" onclick = "selectChoice(1)">A: </button>
+            <button id = "choice-buttonB" onclick = "selectChoice(2)">B: </button>
+            <button id = "choice-buttonC" onclick = "selectChoice(3)">C: </button>
+            <button id = "choice-buttonD" onclick = "selectChoice(4)">D: </button>
+        </div>
+    </body> 
+</html>
